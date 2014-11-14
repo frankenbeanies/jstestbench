@@ -1,0 +1,137 @@
+*{
+	font-family: Arial;
+	margin: 0px;
+}
+
+.center{
+	text-align: center;
+}
+
+.copy-form{
+	background-color: #222;
+	color: #ddd;
+}
+	
+	.copy-form textarea{
+		background-color: #333;
+		border: none;
+		color: #ddd;
+		height: 512px;
+		margin: 2%;
+		padding: 1%;
+		width: 93%;
+	}
+
+	.copy-form h2, .copy-form div{
+		display: inline-block;
+		margin-top: 40px;
+		padding: 10px;
+	}
+
+.header{
+	background-color: #00688b;
+	box-shadow: 0px 0px 10px #333;
+	color: #eee;
+	height: 256px;
+	text-align: center;
+	text-shadow: 0px 0px 10px #333;
+}
+
+.header-text{
+	padding-top: 100px;
+}
+
+.number-blue{
+	background-color: #00688b;
+	border-radius: 50%;
+	color: #eee;
+	font-size: 30px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 7px;
+	text-align: center;
+	width: 30px;
+}
+
+.number-green{
+	background-color: #008b68;
+	border-radius: 50%;
+	color: #eee;
+	font-size: 30px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 7px;
+	text-align: center;
+	width: 30px;
+}
+
+.number-purple{
+	background-color: #8b0068;
+	border-radius: 50%;
+	color: #eee;
+	font-size: 30px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 7px;
+	text-align: center;
+	width: 30px;
+}
+
+.text-form{
+	background-color: #ddd;
+	color: #333;
+}
+
+	.text-form h2, .text-form div{
+		display: inline-block;
+		margin-top: 40px;
+		padding: 10px;
+	}
+
+	.text-form textarea{
+		background-color: #eee;
+		border: none;
+		color: #333;
+		height: 512px;
+		margin: 2%;
+		padding: 1%;
+		width: 93%;
+	}
+
+.submit-form{
+	background-color: #008b68;
+	color: #eee;
+}
+
+	.submit-form h2, .submit-form div{
+		display: inline-block;
+		margin-top: 40px;
+		padding: 10px;
+	}
+
+	.submit-form button{
+		background-color: #00688b;
+		border: none;
+		border-radius: 10px;
+		color: #ddd;
+		font-size: 18px;
+		font-weight: bold;
+		margin: 30px;
+		padding: 10px;
+		transition: background-color .4s, color.4s;
+	}
+
+		.submit-form button:hover{
+			background-color: #ddd;
+			color: #008b68;
+			transition: background-color .4s, color .4s;
+		}
+
+		.submit-form button:active{
+			background-color: #333;
+			color: #ddd;
+			transition: background-color .4s, color .4s;
+		}

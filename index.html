@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8" />
+	<script src="js/tbgen.js"></script>
+	<title>JSTestbench | VHDL Testbench Generator</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header-text">
+			<h1>JSTestbench</h1><br />
+			<i><p>Javascript VHDL Testbench Generator</p></i>
+		</div>
+	</div>
+	<div class="text-form center">
+		<div class="number-green">1</div>
+		<h2>Paste your VHDL entity code in the box below</h2>
+		<textarea id="ta" placeholder="Paste your VHDL entity code here."></textarea>
+	</div>
+	<div class="submit-form center">
+		<div class="number-blue">2</div>
+		<h2>Generate VHDL testbench code</h2><br />
+		<button href="tb" onclick="_genTB();">Submit</button>
+	</div>
+	<div class="copy-form center">
+		<div class="number-purple">3</div>
+		<h2>Copy generated testbench to use in your project</h2><br />
+		<textarea id="tb" readonly="readonly"></textarea>
+	</div>
+</body>
+</html>
