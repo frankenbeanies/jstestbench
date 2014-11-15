@@ -3,6 +3,7 @@
 <head>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<meta charset="utf-8" />
+	<script src="js/email.js"></script>
 	<script src="js/tbgen.js"></script>
 	<title>JSTestbench | VHDL Testbench Generator</title>
 </head>
@@ -10,7 +11,7 @@
 	<div class="header">
 		<div class="header-text">
 			<h1>JSTestbench</h1><br />
-			<i><p>Javascript VHDL Testbench Generator</p></i>
+			<i><p>Client-side Javascript VHDL Testbench Generator | <a href="https://github.com/frankenbeanies/jstestbench">Source</a></p></i>
 		</div>
 	</div>
 	<div class="text-form center">
@@ -21,12 +22,24 @@
 	<div class="submit-form center">
 		<div class="number-blue">2</div>
 		<h2>Generate VHDL testbench code</h2><br />
-		<button href="tb" onclick="_genTB();">Submit</button>
+		<button href="tb" onclick="_genTB();">Create Testbench</button>
 	</div>
-	<div class="copy-form center">
+	<div id="tb-form" class="copy-form center">
 		<div class="number-purple">3</div>
 		<h2>Copy generated testbench to use in your project</h2><br />
 		<textarea id="tb" readonly="readonly"></textarea>
 	</div>
+	<div class="error-form center">
+		<div class="number-orange">4</div>
+		<h2>Please fill out the form below to alert the developer of any issues. Thank you!</h2><br />
+		<b><label>Email:</label></b><br />
+		<input id="email" placeholder="Email" type="email" /><br />
+		<b><label>Error Description:</label></b><br />
+		<textarea id="desc" placeholder="Description of error"></textarea><br />
+		<button onclick="sendEmail();">Send Email</button>
+	</div>
+	<script>
+		document.getElementById('tb').value = '';
+	</script>
 </body>
 </html>

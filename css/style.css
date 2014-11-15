@@ -9,6 +9,7 @@
 
 .copy-form{
 	background-color: #222;
+	box-shadow: 0px 0px 15px #222;
 	color: #ddd;
 }
 	
@@ -28,6 +29,62 @@
 		padding: 10px;
 	}
 
+.error-form{
+	background-color: #f72;
+	box-shadow: 0px 0px 15px #000;
+	color: #ddd;
+}
+
+	.error-form h2, .error-form div{
+		display: inline-block;
+		margin-top: 40px;
+		padding: 10px;
+	}
+
+	.error-form label{
+		text-align: left;
+	}
+
+	.error-form textarea, input{
+		background-color: #A02422;
+		border: none;
+		color: #fff;
+		font-size: 16px;
+		margin: 2%;
+		margin-top: 5px;
+		padding: 1%;
+		width: 50%;
+	}
+
+	.error-form textarea{
+		height: 256px;
+		width: 50%;
+	}
+
+	.error-form button{
+		background-color: #A02422;
+		border: none;
+		border-radius: 10px;
+		color: #ddd;
+		font-size: 18px;
+		font-weight: bold;
+		margin: 30px;
+		padding: 10px;
+		transition: background-color .4s, color.4s;
+	}
+
+		.error-form button:hover{
+			background-color: #ddd;
+			color: #A02422;
+			transition: background-color .4s, color .4s;
+		}
+
+		.error-form button:active{
+			background-color: #333;
+			color: #ddd;
+			transition: background-color .4s, color .4s;
+		}
+
 .header{
 	background-color: #00688b;
 	box-shadow: 0px 0px 10px #333;
@@ -40,6 +97,10 @@
 .header-text{
 	padding-top: 100px;
 }
+
+	.header-text a{
+		color: #eee;
+	}
 
 .number-blue{
 	background-color: #00688b;
@@ -67,6 +128,19 @@
 	width: 30px;
 }
 
+.number-orange{
+	background-color: #A02422;
+	border-radius: 50%;
+	color: #eee;
+	font-size: 30px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 7px;
+	text-align: center;
+	width: 30px;
+}
+
 .number-purple{
 	background-color: #8b0068;
 	border-radius: 50%;
@@ -82,6 +156,7 @@
 
 .text-form{
 	background-color: #ddd;
+	box-shadow: 0px 0px 15px #222;
 	color: #333;
 }
 
@@ -103,6 +178,7 @@
 
 .submit-form{
 	background-color: #008b68;
+	box-shadow: 0px 0px 15px #222;
 	color: #eee;
 }
 
@@ -115,7 +191,7 @@
 	.submit-form button{
 		background-color: #00688b;
 		border: none;
-		border-radius: 10px;
+		border-radius: 20px;
 		color: #ddd;
 		font-size: 18px;
 		font-weight: bold;
