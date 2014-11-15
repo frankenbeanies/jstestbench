@@ -30,9 +30,9 @@
 	}
 
 .error-form{
-	background-color: #f72;
+	background-color: #E38217;
 	box-shadow: 0px 0px 15px #000;
-	color: #ddd;
+	color: #eee;
 }
 
 	.error-form h2, .error-form div{
@@ -191,7 +191,7 @@
 	.submit-form button{
 		background-color: #00688b;
 		border: none;
-		border-radius: 20px;
+		border-radius: 10px;
 		color: #ddd;
 		font-size: 18px;
 		font-weight: bold;
